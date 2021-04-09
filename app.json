@@ -1,12 +1,33 @@
 {
-  "name": "flash_Cards",
-  "displayName": "flash_Cards",
   "expo": {
-    "name": "flash_Cards",
-    "slug": "flash_Cards",
+    "name": "FlashCards",
+    "description": "This is a project for Udacity's React Nanodegre.",
+    "slug": "reactnd-udaciFlashCards",
+    "privacy": "public",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "android"
+    ],
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/flash-cards.png",
+    "splash": {
+      "image": "./assets/flash-cards.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/flash-cards.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "org.udacifitness.exp",
+      "useNextNotificationsApi": true
+    }
   }
 }
